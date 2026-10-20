@@ -1,0 +1,6 @@
+mcp_servers:
+  # Example 1: A built-in Python module
+  pubmed:
+    command: "python"
+    args: ["-m", "biomni.tool.example_mcp_tools.pubmed_mcp"]
+
